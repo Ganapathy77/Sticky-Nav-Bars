@@ -1,0 +1,122 @@
+html body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.company-name{
+    float: left;
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 18.4px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.company-name:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.menu{
+    overflow: hidden;
+    float: right;
+    list-style: none;
+    color: white;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    /* padding-top: 20px; */
+    transition: 1s;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+nav ul li:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+
+
+.main-container{
+    padding: 16px;
+    margin-top: 80px;
+    height: 1500px;
+    float: left;
+    width: 50%;
+    text-align: justify;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+.image-container{
+    margin-top: 80px;
+    float: right;
+    width: 45%;
+}
+
+
+img{
+    width: 600px;
+    height: auto;
+    float: right;
+    margin-right: 41px;
+}
+img:hover{
+    cursor: pointer;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover{
+    width: 180px;
+    height: 60px;
+    background-color: wheat;
+    color: black;
+    border: none;
+    font-size: 20px;
+}
